@@ -241,6 +241,9 @@
 }
 /* @media (max-width: 667px) {} */
 @media (max-width: 576px) {
+    .online__txt {
+        text-align: center;
+    }
     .kantrol__p  {
         font-size: 16px;
     }
@@ -305,6 +308,9 @@
     }
 }
 @media (max-width: 414px) {
+    .header .container {
+        justify-content: start;
+    }
     .kantrol__p  {
         font-size: 14px;
     }
@@ -379,6 +385,7 @@
     .payme {
         display: none;
     }
+
 }
 /* @media (max-width: 412px) {} */
 @media (max-width: 375px){ 
